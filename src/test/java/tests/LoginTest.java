@@ -40,6 +40,5 @@ public class LoginTest {
         String email = "jisoo@yopmail.com";
         String password = "jisookim";
         loginPage.doLogin(email, password);
-        // TODO: Add assertions for successful login
     }
 } 
