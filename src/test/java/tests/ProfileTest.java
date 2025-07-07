@@ -99,13 +99,11 @@ public class ProfileTest {
         assertTrue(profile.getEditIcon().isVisible());
         assertTrue(profile.getSaveButton().isVisible());
         assertTrue(profile.getCancelButton().isVisible());
-        // TODO: Add more assertions for fields/buttons
     }
 
     @Test
     void test_ed_005_verify_current_gender_preselected() {
         profile.clickUpdateIcon();
-        // Example: check if one of the gender radios is checked (adjust as needed)
         assertTrue(profile.isGenderChecked("male") || profile.isGenderChecked("female") || profile.isGenderChecked("n/a"));
     }
 
